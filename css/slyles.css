@@ -1,0 +1,226 @@
+/* РУТ ЦВЕТА */
+:root {
+  --secondary-text-color: #757575;
+  --primary-text-color: #212121;
+  --current-color: #2196f3;
+  --white-colour: #ffffff;
+  --addres-colour: rgba(255, 255, 255, 0.6);
+  --background: #2f303a;
+}
+/* ОБЩИЕ НАСТРОЙКИ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ХЕДЕР */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--current-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--current-color);
+}
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--primary-text-color);
+}
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.current {
+  color: var(--current-color);
+}
+.header-contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--current-color);
+}
+/* INDEX BODY Styles */
+.hero-section {
+  background-color: var(--background);
+}
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-colour);
+}
+.order-service {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--current-color);
+  color: var(--white-colour);
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+.order-service:focus,
+.order-service:hover {
+  background-color: var(--current-color);
+  color: var(--white-colour);
+}
+.sections-title {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.hide-title {
+  opacity: 0;
+}
+.features-title {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-paragpaph {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.worker {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.proffession {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* Portfolio STYLES */
+.filter-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  box-shadow: none;
+}
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--white-colour);
+  background-color: var(--current-color);
+}
+.product {
+  cursor: pointer;
+}
+.product:hover,
+.product:focus {
+  cursor: pointer;
+}
+.product-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.description {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* СТИЛИ ФУТЕРА */
+footer {
+  background-color: var(--background);
+}
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--white-colour);
+}
+
+.street {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-colour);
+}
+.street:hover,
+.street:focus {
+  color: var(--current-color);
+}
+.foot-contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--addres-colour);
+}
+
+.foot-contacts:hover,
+.foot-contacts:focus {
+  color: var(--current-color);
+}
+.join-us {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-colour);
+}

@@ -170,6 +170,7 @@ ul {
   padding: 94px 0;
 }
 .sections-title {
+  margin-bottom: 50px;
   font-style: normal;
   font-size: 36px;
   line-height: 1.16;
@@ -220,8 +221,11 @@ ul {
 .whatwedo-list:not(:last-child) {
   margin-right: 30px;
 }
-.worker {
-  padding-bottom: 30px;
+.workers-list {
+  display: flex;
+}
+.worker:not(:last-child) {
+  margin-right: 30px;
 }
 .worker-foto {
   margin-bottom: 30px;
@@ -236,6 +240,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .proffession {
+  margin-bottom: 16px;
   font-style: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -243,9 +248,23 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+.social {
+  display: flex;
+  justify-content: center;
+}
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Portfolio STYLES */
+.btn-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .filter-button {
+  display: block;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -255,12 +274,17 @@ ul {
   letter-spacing: 0.03em;
   box-shadow: none;
 }
+.filter-buttons:not(:last-child) {
+  margin-right: 8px;
+}
 .filter-button:focus,
 .filter-button:hover {
   color: var(--white-colour);
   background-color: var(--current-color);
 }
 .product {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
   cursor: pointer;
 }
 .product:hover,
@@ -284,6 +308,20 @@ ul {
 /* СТИЛИ ФУТЕРА */
 footer {
   background-color: var(--background);
+}
+.footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
+  align-items: center;
+}
+.logo-address {
+  margin-right: 70px;
+}
+.btmlogo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 .footer-logo {
   font-family: Raleway;
@@ -316,7 +354,15 @@ footer {
 .foot-contacts:focus {
   color: var(--current-color);
 }
+.address-list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.join {
+}
 .join-us {
+  display: inline-block;
+  margin-bottom: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;

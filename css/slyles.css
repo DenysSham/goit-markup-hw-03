@@ -178,6 +178,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .hide-title {
+  height: 0px;
   opacity: 0;
 }
 .features-list {

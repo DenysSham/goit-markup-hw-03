@@ -197,9 +197,9 @@ ul {
   margin-bottom: 30px;
   border-color: var(--second-background);
 }
-.features {
-}
-.features:not(:last-child) {
+.features:not(:last-child),
+.whatwedo-list:not(:last-child),
+.worker:not(:last-child) {
   margin-right: 30px;
 }
 .features-title {
@@ -221,9 +221,6 @@ ul {
 .whatwedo {
   display: flex;
 }
-.whatwedo-list:not(:last-child) {
-  margin-right: 30px;
-}
 .team-section {
   padding: 94px 0;
   background-color: var(--second-background);
@@ -234,9 +231,6 @@ ul {
 }
 .worker {
   display: block;
-}
-.worker:not(:last-child) {
-  margin-right: 30px;
 }
 .worker-foto {
   display: block;

@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="./css/slyles.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container">
         <nav class="nav">
           <a href="./index.html" class="toplogo link">
             <span class="logo">Web</span><span class="header-logo">Studio</span></a
@@ -34,6 +34,8 @@
             <li class="nav-list"><a href="" class="nav-link link">Контакты</a></li>
           </ul>
         </nav>
+      </div>
+      <div>
         <ul class="header-contacts list">
           <li class="contacts-list">
             <a class="header-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -42,219 +44,227 @@
             <a class="header-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </header>
-      <main>
-        <section class="hero-section">
-          <h1 class="main-title">
-            Эффективные решения<br />
-            для вашего бизнеса
-          </h1>
-          <button type="button" class="order-service">Заказать услугу</button>
-        </section>
-        <section class="section">
-          <h2 class="hide-title">Особенности</h2>
-          <ul class="features-list list">
-            <li class="features">
-              <img src="./images/svg/antene.svg" class="svg-picture" alt="спутниковая тарелка" />
-              <h3 class="features-title">Внимание к деталям</h3>
-              <p class="features-paragraph">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
-              </p>
-            </li>
-            <li class="features">
-              <img src="./images/svg/clock.svg" class="svg-picture" alt="часы" />
-              <h3 class="features-title">Пунктуальность</h3>
-              <p class="features-paragraph">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-              </p>
-            </li>
-            <li class="features">
-              <img src="./images/svg/comp.svg" class="svg-picture" alt="компьютерный график" />
-              <h3 class="features-title">Планирование</h3>
-              <p class="features-paragraph">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
-              </p>
-            </li>
-            <li class="features">
-              <img src="./images/svg/astronaut.svg" class="svg-picture" alt="космонавт" />
-              <h3 class="features-title">Современные технологии</h3>
-              <p class="features-paragraph">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </section>
-        <section class="section">
-          <h2 class="sections-title">Чем мы занимаемся</h2>
-          <ul class="list whatwedo">
-            <li class="whatwedo-list">
-              <img
-                src="./images/development.jpg"
-                class="wwd-picture"
-                alt="Десктопные приложения"
-                width="370"
-              />
-            </li>
-            <li class="whatwedo-list">
-              <img
-                src="./images/adaptation.jpg"
-                class="wwd-picture"
-                alt="Мобильные приложения"
-                width="370"
-              />
-            </li>
-            <li class="whatwedo-list">
-              <img
-                src="./images/palette.jpg"
-                class="wwd-picture"
-                alt="Дизайнерские решения"
-                width="370"
-              />
-            </li>
-          </ul>
-        </section>
-        <section class="section team-section">
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <h1 class="main-title">
+          Эффективные решения<br />
+          для вашего бизнеса
+        </h1>
+        <button type="button" class="order-service">Заказать услугу</button>
+      </section>
+      <section class="features-section container">
+        <h2 class="hide-title">Особенности</h2>
+        <ul class="features-list list">
+          <li class="features">
+            <img src="./images/svg/antene.svg" class="svg-picture" alt="спутниковая тарелка" />
+            <h3 class="features-title">Внимание к деталям</h3>
+            <p class="features-paragraph">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
+          </li>
+          <li class="features">
+            <img src="./images/svg/clock.svg" class="svg-picture" alt="часы" />
+            <h3 class="features-title">Пунктуальность</h3>
+            <p class="features-paragraph">
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+          </li>
+          <li class="features">
+            <img src="./images/svg/comp.svg" class="svg-picture" alt="компьютерный график" />
+            <h3 class="features-title">Планирование</h3>
+            <p class="features-paragraph">
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+          </li>
+          <li class="features">
+            <img src="./images/svg/astronaut.svg" class="svg-picture" alt="космонавт" />
+            <h3 class="features-title">Современные технологии</h3>
+            <p class="features-paragraph">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="section container">
+        <h2 class="sections-title">Чем мы занимаемся</h2>
+        <ul class="list whatwedo">
+          <li class="whatwedo-list">
+            <img
+              src="./images/development.jpg"
+              class="wwd-picture"
+              alt="Десктопные приложения"
+              width="370"
+            />
+          </li>
+          <li class="whatwedo-list">
+            <img
+              src="./images/adaptation.jpg"
+              class="wwd-picture"
+              alt="Мобильные приложения"
+              width="370"
+            />
+          </li>
+          <li class="whatwedo-list">
+            <img
+              src="./images/palette.jpg"
+              class="wwd-picture"
+              alt="Дизайнерские решения"
+              width="370"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="team-section">
+        <div class="container">
           <h2 class="sections-title">Наша команда</h2>
           <ul class="list workers-list">
             <li class="worker">
               <img src="./images/igor.jpg" class="worker-foto" alt="Игорь" width="270" />
-              <h3 class="worker-inf">Игорь Демьяненко</h3>
-              <p class="proffession">Product Designer</p>
-              <ul class="list social">
-                <li class="social-links">
-                  <a href=""
-                    ><img src="./images/svg/inst.svg" class="social-links" alt="Instagram"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/twitter.svg" class="social-links" alt="Twitter"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/facebook.svg" class="social-links" alt="Facebook"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/linkedin.svg" class="social-links" alt="Linkedin"
-                  /></a>
-                </li>
-              </ul>
+              <div class="worker-inf">
+                <h3 class="worker-name">Игорь Демьяненко</h3>
+                <p class="proffession">Product Designer</p>
+                <ul class="list social">
+                  <li class="social-links">
+                    <a href=""
+                      ><img src="./images/svg/inst.svg" class="social-link" alt="Instagram"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/twitter.svg" class="social-link" alt="Twitter"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/facebook.svg" class="social-link" alt="Facebook"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/linkedin.svg" class="social-link" alt="Linkedin"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
             </li>
-
             <li class="worker">
               <img src="./images/olga.jpg" class="worker-foto" alt="Ольга" width="270" />
-              <h3 class="worker-inf">Ольга Репина</h3>
-              <p class="proffession">Frontend Developer</p>
-
-              <ul class="list social">
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/inst.svg" class="social-links" alt="Instagram"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/twitter.svg" class="social-links" alt="Twitter"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/facebook.svg" class="social-links" alt="Facebook"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/linkedin.svg" class="social-links" alt="Linkedin"
-                  /></a>
-                </li>
-              </ul>
+              <div class="worker-inf">
+                <h3 class="worker-name">Ольга Репина</h3>
+                <p class="proffession">Frontend Developer</p>
+                <ul class="list social">
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/inst.svg" class="social-link" alt="Instagram"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/twitter.svg" class="social-link" alt="Twitter"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/facebook.svg" class="social-link" alt="Facebook"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/linkedin.svg" class="social-link" alt="Linkedin"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="worker">
               <img src="./images/kolya.jpg" class="worker-foto" alt="Николай" width="270" />
-              <h3 class="worker-inf">Николай Тарасов</h3>
-              <p class="proffession">Marketing</p>
-
-              <ul class="list social">
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/inst.svg" class="social-links" alt="Instagram"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/twitter.svg" class="social-links" alt="Twitter"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/facebook.svg" class="social-links" alt="Facebook"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/linkedin.svg" class="social-links" alt="Linkedin"
-                  /></a>
-                </li>
-              </ul>
+              <div class="worker-inf">
+                <h3 class="worker-name">Николай Тарасов</h3>
+                <p class="proffession">Marketing</p>
+                <ul class="list social">
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/inst.svg" class="social-link" alt="Instagram"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/twitter.svg" class="social-link" alt="Twitter"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/facebook.svg" class="social-link" alt="Facebook"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/linkedin.svg" class="social-link" alt="Linkedin"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="worker">
               <img src="./images/misha.jpg" class="worker-foto" alt="Михаил" width="270" />
-              <h3 class="worker-inf">Михаил Ермаков</h3>
-              <p class="proffession">UI Designer</p>
-
-              <ul class="list social">
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/inst.svg" class="social-links" alt="Instagram"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/twitter.svg" class="social-links" alt="Twitter"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/facebook.svg" class="social-links" alt="Facebook"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img src="./images/svg/linkedin.svg" class="social-links" alt="Linkedin"
-                  /></a>
-                </li>
-              </ul>
+              <div class="worker-inf">
+                <h3 class="worker-name">Михаил Ермаков</h3>
+                <p class="proffession">UI Designer</p>
+                <ul class="list social">
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/inst.svg" class="social-link" alt="Instagram"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/twitter.svg" class="social-link" alt="Twitter"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/facebook.svg" class="social-link" alt="Facebook"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./images/svg/linkedin.svg" class="social-link" alt="Linkedin"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
-        </section>
-        <section class="section">
-          <h2 class="sections-title">Постоянные клиенты</h2>
-          <ul class="clients list">
-            <li>
-              <a href=""><img src="./images/svg/ya&co.svg" alt="YA & CO" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/svg/tagline.svg" alt="COMPANY TAGLINE HERE" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/svg/company.svg" alt="COMPANY" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/svg/foster.svg" alt="FOSTER PETERS" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/svg/brand.svg" alt="BRAND" /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/svg/tag.svg" alt="COMPANY TAG LINE" /></a>
-            </li>
-          </ul>
-        </section>
-      </main>
-      <footer class="footer">
+        </div>
+      </section>
+      <section class="features-section container">
+        <h2 class="sections-title">Постоянные клиенты</h2>
+        <ul class="clients list">
+          <li>
+            <a href=""><img src="./images/svg/ya&co.svg" alt="YA & CO" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/svg/tagline.svg" alt="COMPANY TAGLINE HERE" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/svg/company.svg" alt="COMPANY" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/svg/foster.svg" alt="FOSTER PETERS" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/svg/brand.svg" alt="BRAND" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/svg/tag.svg" alt="COMPANY TAG LINE" /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer">
         <div class="logo-address">
           <a href="index.html" class="btmlogo link">
             <span class="logo">Web</span><span class="footer-logo">Studio</span>
@@ -285,28 +295,26 @@
           <strong class="join-us">ПРИСОЕДИНЯЙТЕСЬ</strong>
           <ul class="social list">
             <li>
+              <a href=""><img src="./images/svg/inst.svg" class="social-link" alt="Instagram" /></a>
+            </li>
+            <li>
               <a href=""
-                ><img src="./images/svg/inst.svg" class="social-links" alt="Instagram"
+                ><img src="./images/svg/twitter.svg" class="social-link" alt="Twitter"
               /></a>
             </li>
             <li>
               <a href=""
-                ><img src="./images/svg/twitter.svg" class="social-links" alt="Twitter"
+                ><img src="./images/svg/facebook.svg" class="social-link" alt="Facebook"
               /></a>
             </li>
             <li>
               <a href=""
-                ><img src="./images/svg/facebook.svg" class="social-links" alt="Facebook"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./images/svg/linkedin.svg" class="social-links" alt="Linkedin"
+                ><img src="./images/svg/linkedin.svg" class="social-link" alt="Linkedin"
               /></a>
             </li>
           </ul>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

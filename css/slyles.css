@@ -23,10 +23,6 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 ul {
   padding: 0px;
@@ -49,8 +45,10 @@ ul {
 }
 /* ХЕДЕР */
 .header {
-  display: flex;
   border-bottom: 1px solid #ececec;
+}
+.header-content {
+  display: flex;
 }
 .site-nav {
   display: flex;
@@ -168,7 +166,12 @@ ul {
   color: var(--white-colour);
 }
 .section {
-  padding: 94px 0;
+  padding-bottom: 94px;
+}
+
+.features-section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .sections-title {
   margin-bottom: 50px;
@@ -210,7 +213,6 @@ ul {
 }
 .features-paragpaph {
   max-width: 270px;
-  justify-content: flex-start;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -224,18 +226,29 @@ ul {
   margin-right: 30px;
 }
 .team-section {
+  padding: 94px 0;
   background-color: var(--second-background);
 }
+
 .workers-list {
   display: flex;
+}
+.worker {
+  display: block;
 }
 .worker:not(:last-child) {
   margin-right: 30px;
 }
 .worker-foto {
-  margin-bottom: 30px;
+  display: block;
 }
 .worker-inf {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--white-colour);
+}
+.worker-name {
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
@@ -256,6 +269,12 @@ ul {
 .social {
   display: flex;
   justify-content: center;
+}
+.social-link {
+  margin-right: 10px;
+}
+.social:not(:last-child) {
+  margin-right: 10px;
 }
 .clients {
   display: flex;
@@ -336,7 +355,6 @@ footer {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
   align-items: center;
 }
 .logo-address {
@@ -381,8 +399,6 @@ footer {
   margin-bottom: 9px;
 }
 
-.join {
-}
 .join-us {
   display: inline-block;
   margin-bottom: 20px;

@@ -8,6 +8,7 @@
   --background: #2f303a;
   --second-background: #f5f4fa;
   --border: #eeeeee;
+  --clients-picture-border: #afb1b8;
 }
 /* ОБЩИЕ НАСТРОЙКИ */
 
@@ -134,6 +135,7 @@ ul {
   background-color: var(--background);
 }
 .main-title {
+  margin-bottom: 30px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -144,17 +146,16 @@ ul {
   color: var(--white-colour);
 }
 .order-service {
+  display: block;
   border-radius: 4px;
   min-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 10px 32px;
-  margin: 0 auto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
-  align-items: center;
-  text-align: center;
   background-color: var(--current-color);
   color: var(--white-colour);
   cursor: pointer;
@@ -277,6 +278,13 @@ ul {
 .clients {
   display: flex;
   justify-content: space-between;
+}
+.clients-picture {
+  border: 1px solid var(--clients-picture-border);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 172px;
+  padding: 16px 32px;
 }
 
 /* Portfolio STYLES */

@@ -312,7 +312,7 @@ ul {
    margin: -15px;
 }
 .product {
-   /* flex-basis: calc((100% - 66px) / 3); */
+   flex-basis: calc((100% - 90px) / 3);
    /* flex-basis: 370px; */
    margin: 15px;
    cursor: pointer;

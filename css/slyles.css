@@ -52,7 +52,6 @@ ul {
 .site-nav,
 .nav {
    display: flex;
-   align-items: center;
 }
 
 .site-nav > .nav-list {
@@ -360,9 +359,11 @@ footer {
    background-color: var(--background);
 }
 .footer {
-   display: flex;
    padding-top: 60px;
    padding-bottom: 60px;
+}
+.footer-content {
+   display: flex;
    align-items: center;
 }
 .logo-address {
